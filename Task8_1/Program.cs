@@ -30,20 +30,16 @@
                         break;
 
                 }
-                
-
-
             }
             catch (FormatException)
             {
                 Console.WriteLine("Нечисловой ввод");
             }
-            catch (DivideByZeroException) 
+            catch (DivideByZeroException)
             {
                 Console.WriteLine("Деление на ноль");
             }
             Console.ReadLine();
-
         }
     }
 }
