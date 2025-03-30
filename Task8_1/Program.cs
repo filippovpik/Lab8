@@ -30,9 +30,6 @@
                         break;
 
                 }
-
-
-
             }
             catch (FormatException)
             {
@@ -43,7 +40,6 @@
                 Console.WriteLine("Деление на ноль");
             }
             Console.ReadLine();
-
         }
     }
 }
